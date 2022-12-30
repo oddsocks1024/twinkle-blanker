@@ -1,0 +1,24 @@
+Madhouse v1.0, BlankerPrefs-Window
+
+CHUNK:MUI-WINDOWLAYOUT
+VGroup,
+  ColumnGroup(2),
+     Label( "Co_lor" ),
+     Colpref = Cycle( "l", "|Red|Green|Blue" ),
+     Label( "_Pattern" ),
+     Rout = Slider ("p", 1, 5),
+     Label( "Star _Size" ),
+     Starlen = Slider ("s", 1, 15),
+  End,
+  ScreenMode = ScreenMode (0),
+End,
+
+CHUNK:BLANKERINFO
+Ian Chapman
+-
+0
+4096
+1
+Madhouse2
+Cycle
+
